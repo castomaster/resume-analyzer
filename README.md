@@ -20,7 +20,8 @@ AI‑powered tool that compares a résumé (PDF / DOCX) with a job description
 
 ## 🌐 Try it online
 
-▶ **Live demo:** <https://https://resume-analyzer-eensuzogku6mh96kz9at2h.streamlit.app/>
+▶ **Live demo:** 
+https://resume-analyzer-eensuzogku6mh96kz9at2h.streamlit.app/
 
 ---
 
