@@ -1,0 +1,32 @@
+# Minimum number of words in the Experience section to avoid sparsity warning
+experience_min_words: 100
+
+# Maximum total résumé words before suggesting to shorten
+resume_max_words: 1500
+
+# Number of top keywords to extract for gap analysis
+top_keywords: 20
+
+sections:
+  experience:
+    # Section headers to look for prior to extracting experience
+    headers:
+      - "Experience"
+      - "Work History"
+      - "Professional Experience"
+    # Tokens that signal end of experience section
+    stops:
+      - "Skills"
+      - "Education"
+      - "Projects"
+
+  skills:
+    # Section headers to look for prior to extracting skills
+    headers:
+      - "Skills"
+      - "Technical Skills"
+    # Tokens that signal end of skills section
+    stops:
+      - "Experience"
+      - "Education"
+      - "Projects"

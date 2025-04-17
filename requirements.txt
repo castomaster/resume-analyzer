@@ -1,0 +1,9 @@
+pdfplumber
+
+python-docx
+spacy
+scikit-learn
+PyYAML
+rich
+tqdm
+streamlit
