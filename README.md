@@ -27,11 +27,17 @@ https://resume-analyzer-eensuzogku6mh96kz9at2h.streamlit.app/
 
 ## ⚡ Quick Start (CLI)
 
+Open the document Installation & Usage.docx in the root folder
+
 ```bash
 git clone https://github.com/castomaster/resume-analyzer.git
 cd resume-analyzer
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+
+---
+
+
 
 # single résumé
 python src/resume_analyzer.py sample/resume.pdf --job_file sample/jd.txt
